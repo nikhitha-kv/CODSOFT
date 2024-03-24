@@ -131,7 +131,6 @@ public class CourseRegistrationSystemWithUI {
     public static void main(String[] args) {
         CourseRegistrationSystemWithUI system = new CourseRegistrationSystemWithUI();
 
-        // Create UI
         SwingUtilities.invokeLater(() -> {
             new CourseRegistrationUI(system);
         });
@@ -182,7 +181,6 @@ class CourseDatabase {
 
     public CourseDatabase() {
         this.courses = new ArrayList<>();
-        // Adding some sample courses
         courses.add(new Course("CS101", "Introduction to Java Programming", "Basic Java programming concepts", 20, "Monday, Wednesday, Friday"));
         courses.add(new Course("CS102", "Introduction to Python Programming", "Basic Python programming concepts", 25, "Tuesday, Thursday"));
     }
