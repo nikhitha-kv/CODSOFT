@@ -4,10 +4,10 @@ import javax.swing.JOptionPane;
 public class GuessTheNumberUI {
     public static void main(String[] args) {
         Random random = new Random();
-        int minRange = 1; // Minimum value of the range
-        int maxRange = 100; // Maximum value of the range
-        int attemptsLimit = 5; // Maximum number of attempts allowed
-        int score = 0; // Initialize score
+        int minRange = 1; 
+        int maxRange = 100; 
+        int attemptsLimit = 5; 
+        int score = 0; 
         
         boolean playAgain = true;
         
