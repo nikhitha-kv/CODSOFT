@@ -5,7 +5,7 @@ public class GradeCalculatorUI {
         int totalSubjects = 0;
         int totalMarks = 0;
 
-        // Input marks for each subject
+       
         while (true) {
             String input = JOptionPane.showInputDialog("Enter marks for subject " + (totalSubjects + 1) + " (-1 to stop):");
             if (input.equals("-1")) {
@@ -16,14 +16,12 @@ public class GradeCalculatorUI {
             totalSubjects++;
         }
 
-        // Calculate Total Marks
+      
         JOptionPane.showMessageDialog(null, "Total Marks Obtained: " + totalMarks);
 
-        // Calculate Average Percentage
         double averagePercentage = (double) totalMarks / totalSubjects;
         JOptionPane.showMessageDialog(null, "Average Percentage: " + averagePercentage);
 
-        // Grade Calculation
         char grade;
         if (averagePercentage >= 90) {
             grade = 'A';

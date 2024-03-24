@@ -140,7 +140,7 @@ public class QuizGameWithUI {
 
     public static void main(String[] args) {
         List<Question> questions = new ArrayList<>();
-        // Add questions with options and correct answers
+       
         questions.add(new Question("What is the syntax to declare a variable in Java?",
                 List.of("var x;", "String x;", "x;", "int x;"), 4));
         questions.add(new Question("Which of the following is not a primitive data type in Java?",
